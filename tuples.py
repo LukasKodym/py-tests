@@ -5,7 +5,12 @@
 # values[2] = 50 # error
 # print(values[2])
 
-# values = (1, 2, 3, 4, 5, 6, 7)
+values = (1, 2, 3, 4, 5, 6, 7)
+print(values)
+print(type(values))
+my_list = list(values)
+print(my_list)
+print(type(my_list))
 # new_values = values[:3]
 # print(2 in new_values)
 # print(2 not in new_values)
