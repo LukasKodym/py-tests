@@ -26,8 +26,8 @@
 #         print(dict_args[key])
 # fn(3, 1, 4, 5, 'cs', True, user = 'admin', version = 2.5)
 
-# def fn(a, b):
-#     return a + b, a * b, a - b
-# r = fn(2, 4)
-# print(r)
+def fn(a, b):
+    return a + b, a * b, a - b
+r = fn(2, 4)
+print(r)
 
