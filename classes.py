@@ -67,3 +67,7 @@ class Button(Widget):
 b = Button('my button', 'ractangle', 'large' )
 print(b.label, b.shape, b.size)
 print(b.handle_click())
+
+class New:
+    def __init__(self):
+        pass    
