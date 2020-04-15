@@ -15,7 +15,7 @@ print(type(numbers))
 
 # %%
 mixed = ['python', 3.7, 4, True]
-printed(mixed)
+print(mixed)
 
 # %%
 empty = [] # moż•iwoc utworzenia pustej listy bez metody list()
