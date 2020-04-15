@@ -31,7 +31,7 @@ bucket = [first, second]
 len(bucket)
 
 # %%
-first + second + ['scalar']
+var = first + second + ['scalar']
 
 print(techs)
 techs += ['javascript']
