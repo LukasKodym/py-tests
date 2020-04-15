@@ -131,19 +131,3 @@ stopa_procentowa = 0.05
 okres_trwania = 2
 
 wartosc = kwota_poczatkowa * (1 + stopa_procentowa)**okres_trwania
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
