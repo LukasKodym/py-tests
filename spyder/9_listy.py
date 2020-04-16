@@ -15,7 +15,7 @@ print(type(numbers))
 
 # %%
 mixed = ['python', 3.7, 4, True]
-printed(mixed)
+print(mixed)
 
 # %%
 empty = [] # możliwoc utworzenia pustej listy bez metody list()
@@ -31,7 +31,7 @@ bucket = [first, second]
 len(bucket)
 
 # %%
-first + second + ['scalar']
+var = first + second + ['scalar']
 
 print(techs)
 techs += ['javascript']
