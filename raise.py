@@ -14,4 +14,3 @@ try:
     print(r)
 except ZeroDivisionError:
     print('Nie można podzielić przez 0!')
-# %%
