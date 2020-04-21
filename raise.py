@@ -3,6 +3,7 @@ def divide(a, b):
         raise ZeroDivisionError('Błąd ogólny')
     return a / b
 
+
 print('Podaj liczbę a:')
 a = int(input())
 print('Podaj liczbę b:')

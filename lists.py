@@ -31,7 +31,7 @@ print(10 in main_list)
 print(10 not in main_list)
 
 # %%
-my_list = [i for i in range(10, 40, 5) if i % 2 == 0 ]
+my_list = [i for i in range(10, 40, 5) if i % 2 == 0]
 print(my_list)
-my_list_2 = [[2,4,6],[1,3,5],[8,5,2]]
+my_list_2 = [[2, 4, 6], [1, 3, 5], [8, 5, 2]]
 print(my_list_2)

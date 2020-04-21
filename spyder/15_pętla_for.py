@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 for i in 'python':
     print(i)
-    
+
 # %%
 name = 'python'
 
@@ -14,11 +14,11 @@ for char in name:
 # %%
 for index in range(10):
     print(index)
-    
+
 # %%
 for index in range(len(name)):
     print('nr indeksu: ', index, 'litera: ', name[index])
-    
+
 # %%
 for i in enumerate(name):
     print(i)
@@ -30,11 +30,11 @@ for index, char in enumerate(name):
 # %%
 for i in [4, 5, 6, 8, 6]:
     print(i)
-    
+
 # %%
 for i, value in enumerate([4, 5, 6, 8, 6]):
     print(i, value)
-    
+
 # %%
 for i in range(10, 20, 2):
     print(i)
@@ -42,12 +42,12 @@ for i in range(10, 20, 2):
 # %%
 for i in range(10, 0, -1):
     print(i)
-    
+
 # %%
 string = 'Python Course'
 for char in string[::-1]:
     print(char)
-    
+
 # %%
 hashtags = '#sport#gym#fitness'
 for char in hashtags:
@@ -61,7 +61,7 @@ for char in zip('abcde', '12345'):
 # %%
 for char, num in zip('abcde', '12345'):
     print(char, num)
-    
+
 # %%
 hashtags = '#sport#gym#fitness#'
 

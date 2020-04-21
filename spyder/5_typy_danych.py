@@ -6,7 +6,6 @@ print(dir(string))
 a = 10
 print(dir(a))
 
-
 # %%
 type(a)
 type(string)
@@ -33,4 +32,3 @@ y = 12334
 z = '0'
 print('x: {}\ny: {}\nz: {}'.format(type(x), type(y), type(z)))
 # print('x:',type(x),'\ny:',type(y),'\nz:',type(z))
-      

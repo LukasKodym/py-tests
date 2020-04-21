@@ -7,14 +7,14 @@ for i in '0123456789':
         break
 
 print('koniec')
-    
+
 # %%
 sample = 'Python Course'
 for char in sample:
     if char == ' ':
         break
     print(char)
-    
+
 # %%
 for char in 'jan.kowalski@gmail.com':
     if char == '@':
@@ -23,7 +23,7 @@ for char in 'jan.kowalski@gmail.com':
 
 else:
     print('adres email nie jest poprawny')
-    
+
 print('koniec')
 
 # %% walidator

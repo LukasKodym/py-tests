@@ -3,7 +3,7 @@ values = (1, 2, 3, 'abc', True)
 print(values)
 for i in values:
     print(i)
-values[2] = 50 # error
+values[2] = 50  # error
 print(values[2])
 
 # %%

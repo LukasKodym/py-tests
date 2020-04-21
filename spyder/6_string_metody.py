@@ -71,7 +71,7 @@ hashtags[:idx]
 '1'.zfill(10)
 
 # %%
-'#'.join(['sport','python','free','time'])
+'#'.join(['sport', 'python', 'free', 'time'])
 
 x = '123,785,45,5'
 print(x.split(','))

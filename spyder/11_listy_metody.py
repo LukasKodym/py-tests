@@ -63,19 +63,3 @@ print(techs)
 # %%
 techs[1] = 'c++'
 print(techs)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

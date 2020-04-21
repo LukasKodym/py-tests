@@ -31,7 +31,7 @@ techs.remove('sas')
 print(techs)
 
 # %%
-techs.pop() # wyswietla i usuwa dowolny element ze zbioru
+techs.pop()  # wyswietla i usuwa dowolny element ze zbioru
 
 # %%
 techs.clear()
@@ -42,13 +42,13 @@ A = {1, 2, 3, 4, 5, 6, 7}
 B = {5, 6, 7, 8, 9}
 C = {5, 6}
 
-C.issubset(A) # czy C jest podzbiorem A
+C.issubset(A)  # czy C jest podzbiorem A
 C.issubset({5, 7})
-A.issuperset(C) # czy A jest nadzbiorem C
+A.issuperset(C)  # czy A jest nadzbiorem C
 
-A.union(B) # suma wszystkich elementów
-A.intersection(B) # czesc wspolna
-A.symmetric_difference(B) # pokazuje unikalne elementy dwóch zbiorów
+A.union(B)  # suma wszystkich elementów
+A.intersection(B)  # czesc wspolna
+A.symmetric_difference(B)  # pokazuje unikalne elementy dwóch zbiorów
 
 D = A.copy()
 
