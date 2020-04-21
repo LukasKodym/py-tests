@@ -73,3 +73,26 @@ if f:
     print('Znaleziono')
 else:
     print('Nie znaleziono')
+
+# %% 
+KOD_PIN = '0000'
+pin = input('podaj kod pin: ')
+
+while pin != KOD_PIN:
+    pin = input('błędny kod, spróbuj jeszcze raz: ')
+    
+print('Zalogowany')
+
+# %%
+KOD_PIN = '0000'
+pin = ''
+counter = 0
+
+while pin != KOD_PIN and counter < 3:
+    pin = input('wprowadz kod pin: ')
+    if pin == KOD_PIN:
+        print('Zalogowany')
+        break
+    counter += 1
+else:
+    print('Zbyt dużo prób logowania.')
