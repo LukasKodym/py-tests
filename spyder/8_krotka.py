@@ -11,7 +11,7 @@ google = ('Amazon', 'USA', 'Technology', 2)
 
 # %%
 name_google = google[0]
-google[0] = 'Google Company' 
+google[0] = 'Google Company'
 
 # %%
 data = (amazon, google)

@@ -49,11 +49,12 @@ print('\t\t\tPython')
 # %%
 
 print('C:\path\to\something\new')
-print('C:\\path\\to\\something\\new') #recomended option
+print('C:\\path\\to\\something\\new')  # recomended option
 print(r'C:\path\to\something\new')
 
 # %%
 import os
+
 os.getcwd()
 
 # %%
@@ -68,8 +69,8 @@ print('Py' 'thon')
 # %%
 url = 'https://docs.google.com/document/d/1l16PpOEVONT_4OKHVonQimOivu8xZKxy_m5c2cA67UE/edit?ts=5c001269'
 
-url_2 =('https://docs.google.com/document/d/1l16PpOEVONT_4OKHVonQimOivu8xZKxy_'
-        'm5c2cA67UE/edit?ts=5c001269')
+url_2 = ('https://docs.google.com/document/d/1l16PpOEVONT_4OKHVonQimOivu8xZKxy_'
+         'm5c2cA67UE/edit?ts=5c001269')
 # %%
 name = 'Python'
 print(name + ' 3.7')
@@ -89,7 +90,7 @@ print('{1} ma {0} lat'.format(imie, age))
 saldo = 40
 saldo += 30
 print(saldo)
-saldo -=10
+saldo -= 10
 print(saldo)
 # %%
 lokata = 1000
@@ -130,4 +131,4 @@ kwota_poczatkowa = 1000
 stopa_procentowa = 0.05
 okres_trwania = 2
 
-wartosc = kwota_poczatkowa * (1 + stopa_procentowa)**okres_trwania
+wartosc = kwota_poczatkowa * (1 + stopa_procentowa) ** okres_trwania

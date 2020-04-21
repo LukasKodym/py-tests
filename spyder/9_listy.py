@@ -18,7 +18,7 @@ mixed = ['python', 3.7, 4, True]
 print(mixed)
 
 # %%
-empty = [] # możliwoc utworzenia pustej listy bez metody list()
+empty = []  # możliwoc utworzenia pustej listy bez metody list()
 nested = [[1, 2, [3, 'sql']], ['python', 'java', 'go'], 3]
 
 # %%

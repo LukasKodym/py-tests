@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 imie = 'Pawel'
-_imie = 'Olek' # peodkrelenie stosuje się do zmiennych systemowych
+_imie = 'Olek'  # peodkrelenie stosuje się do zmiennych systemowych
 # 3imie = "Ala" # nie zaczynamy zmiennych od cyfr
 imie_3 = 'Ala'
 
@@ -21,10 +21,11 @@ print(dzienna_pensja)
 # %% typy nazewnictwa
 camelCase = 'Python 3.7'
 PascalCase = 'Python 3.7'
-snake_case = 'Python 3.7' # koncepcja używana w Python
+snake_case = 'Python 3.7'  # koncepcja używana w Python
 # kebab-case = 'Python 3.7' # nie używane w Python
-UPPER = 'Python 3.7' # używane do wartoci stałych
+UPPER = 'Python 3.7'  # używane do wartoci stałych
 
 # %% lista unikalnych nazw zmiennych zarezerwowanych przez język Python
 import keyword
+
 keyword.kwlist

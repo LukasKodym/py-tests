@@ -18,18 +18,18 @@ number != 1200
 number != 1000
 
 # %%
-if [warunek]:
-    [instrukcja]
-    
+# if [warunek]:
+#     [instrukcja]
+
 # %%
 if 8 > 10:
     print('Tak')
-    
+
 # %%
 a = 8
 if a > 10:
     print('a > 10')
-    
+
 # %%
 a = 20
 if a > 10:
@@ -88,7 +88,7 @@ elif pin == 20:
     print('Byłes blisko.')
 else:
     print('Nie zgadłes!')
-    
+
 # %%
 string = ' '
 
@@ -104,7 +104,7 @@ if number:
     print('liczba niezerowa')
 else:
     print('zero')
-    
+
 # %%
 default_flag = False
 
@@ -120,7 +120,7 @@ if not default_flag:
     print('nie doszło')
 else:
     print('doszło do defaultu')
-    
+
 # %%
 saldo = 10000
 klient_zweryfikowany = True
@@ -156,14 +156,14 @@ if 'p' in name:
     print('Znaleziono p')
 else:
     print('Nie znaleziono p')
-    
+
 # %%
 tech = 'sas'
 if tech == 'python':
     flag = 'Dobry wybór'
 else:
     flag = 'Poszykaj czegos lepszego'
-    
+
 # %%
 tech = 'python'
 'dobry wybór' if tech == 'python' else 'poszukaj czegos lepszego'
@@ -177,4 +177,4 @@ text = 'jklsdfjlsdfjlksdjfsdljkdsiojuqmfdjklljskl'
 if 'q' in text:
     print('Zawiera')
 else:
-    print('Nie zawiera')    
+    print('Nie zawiera')

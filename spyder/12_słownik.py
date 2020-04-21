@@ -20,12 +20,12 @@ g = dict()
 h = list()
 
 # %%
-pol_to_eng = {'jeden':'one', 'dwa':'two', 'trzy':'three'}
+pol_to_eng = {'jeden': 'one', 'dwa': 'two', 'trzy': 'three'}
 
-name_to_digit = {'jeden':1, 'dwa':2, 'trzy':3}
+name_to_digit = {'jeden': 1, 'dwa': 2, 'trzy': 3}
 
 # %%
-index_to_digit = {0:1, 1:2, 2:3}
+index_to_digit = {0: 1, 1: 2, 2: 3}
 
 len(index_to_digit)
 
@@ -62,4 +62,4 @@ pol_to_eng.pop('dwa')
 pol_to_eng.popitem()
 
 # %%
-pol_to_eng.update({'jeden':1})
+pol_to_eng.update({'jeden': 1})

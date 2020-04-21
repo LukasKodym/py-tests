@@ -28,11 +28,10 @@ else:
 a = False
 b = 4
 c = 5
-if not a: # and, or, not
+if not a:  # and, or, not
     print('Warunek spełniony')
 
 # %%
 a = False
 if a:
     print('Warunek spełniony')
-    

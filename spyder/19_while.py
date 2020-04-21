@@ -4,7 +4,7 @@ i = 0
 while i <= 5:
     print(i)
     i += 1
-    
+
 # %%
 n = 0
 while True:
@@ -25,11 +25,11 @@ print('Czesc {}'.format(name))
 # %%
 n = 0
 while n < 20:
-    n +=1
+    n += 1
     if n % 2 == 0:
         continue
     print(n)
-    
+
 # %%
 lista_do_przeszukania = [12, 53, 13, 63, 34]
 flaga = False
@@ -80,7 +80,7 @@ pin = input('podaj kod pin: ')
 
 while pin != KOD_PIN:
     pin = input('błędny kod, spróbuj jeszcze raz: ')
-    
+
 print('Zalogowany')
 
 # %%
