@@ -42,7 +42,7 @@ with open('techs.txt', 'a') as file:
         file.write(string + '\n')
 
 # %%
-with open('tree.txt', 'w') as file:
+with open('tree.txt', 'a') as file:
     for j in range(2):
         for i in range(10):
             print('{:>9}'.format('*' * i), end = '', file = file)
