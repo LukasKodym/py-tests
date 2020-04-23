@@ -38,7 +38,7 @@ for i in num:
         print(i, j)
 
 # %% zad 8
-a = list(range(1,9))
+a = list(range(1, 9))
 print(a)
 
 # %% zad 9
@@ -58,10 +58,3 @@ while x < 19:
 tab = ['A', 'B', 'C', 'D']
 for i in len(tab):
     i += 1
-    
-
-
-
-
-
-
