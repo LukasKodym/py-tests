@@ -6,6 +6,7 @@ def funkcja_1():
 
 print(type(funkcja_1))
 funkcja_1
+a = funkcja_1
 funkcja_1()
 fun = funkcja_1()
 
