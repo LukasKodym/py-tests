@@ -123,4 +123,5 @@ def drukuj_nieparzyste(maksimum=20):
     return odd
 
 
-drukuj_nieparzyste()
+a = drukuj_nieparzyste()
+print(a)
