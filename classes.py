@@ -1,3 +1,5 @@
+# %%
+##
 class Point:
     pass  # place holder
 
@@ -11,6 +13,7 @@ print(type(p2))
 
 
 # %%
+##
 class Point:
     def __init__(self):  # bez ustawiania parametrów na wejściu
         self.x = 0
@@ -24,6 +27,7 @@ print(p2.x, p2.y)
 
 
 # %%
+##
 class Point:
     def __init__(self, x=0, y=0):  # można też ustawić wartości domyślne na wejściu
         self.x = x
@@ -37,6 +41,7 @@ print(p2.x, p2.y)
 
 
 # %%
+##
 class Point:
     def __init__(self, x=0, y=0):
         self.x = x
@@ -58,6 +63,7 @@ print(p1.x, p1.y)
 
 
 # %%
+##
 class Point:
     points_counter = 0
 
@@ -77,6 +83,7 @@ print(Point.points_counter, p2.points_counter)
 
 
 # %%
+##
 class Widget:
     def __init__(self, label, shape):
         self.label = label
@@ -98,6 +105,7 @@ print(b.handle_click())
 
 
 # %%
+##
 class New:
     def __init__(self):
         pass

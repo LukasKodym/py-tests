@@ -1,4 +1,5 @@
 # %%
+##
 values = (1, 2, 3, 'abc', True)
 print(values)
 for i in values:
@@ -7,6 +8,7 @@ values[2] = 50  # error
 print(values[2])
 
 # %%
+##
 values = (1, 2, 3, 4, 5, 6, 7)
 new_values = values[:3]
 print(2 in new_values)
@@ -16,6 +18,7 @@ v = new_values * 2 + (10, 20, 30)
 print(v)
 
 # %%
+##
 values = (1, 2, 3, 4, 5, 6, 7)
 print(values)
 print(type(values))
@@ -24,6 +27,7 @@ print(my_list)
 print(type(my_list))
 
 # %%
+##
 my_list = [10, 4, 5, 17, 7, 2, 5]
 my_tuple = tuple(my_list)
 print(len(my_tuple))

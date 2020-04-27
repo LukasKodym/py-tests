@@ -1,4 +1,5 @@
 # %%
+##
 def my_decorator(fn):
     def wraper():
         print('przed dekorowaniem')
@@ -17,5 +18,6 @@ def get_5_values():
 get_5_values()
 
 # %%
+##
 get_5_values_decorated = my_decorator(get_5_values)
 get_5_values_decorated()

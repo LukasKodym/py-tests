@@ -1,4 +1,5 @@
 # %%
+##
 def fn():
     print('Witaj!')
 
@@ -7,6 +8,7 @@ fn()
 
 
 # %%
+##
 def fn(a=0, b=0):
     print(a + b)
 
@@ -16,6 +18,7 @@ fn(3, 4)
 
 
 # %%
+##
 def fn(a, b, c):
     print(a + b + c)
 
@@ -24,6 +27,7 @@ fn(2, 4, 4)
 
 
 # %%
+##
 def fn(a, b=0, c=0):
     print('a:', a, 'b:', b, 'c:', c)
 
@@ -35,6 +39,7 @@ fn(2, 5, 7)
 
 
 # %%
+##
 def fn(a, *args, **dict_args):
     print(a)
     # print(args)
@@ -49,6 +54,7 @@ fn(3, 1, 4, 5, 'cs', True, user='admin', version=2.5)
 
 
 # %%
+##
 def fn(a, b):
     return a + b, a * b, a - b
 

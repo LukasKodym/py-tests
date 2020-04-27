@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+
+# %%
+##
 def parabola(x):
     return x ** 2 + 3
 

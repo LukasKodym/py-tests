@@ -1,3 +1,5 @@
+# %%
+##
 def num_generator(end):
     n = 1
     nums = []
@@ -10,7 +12,8 @@ def num_generator(end):
 value = num_generator(1000)
 print(value)
 
-
+# %%
+##
 def num_generator(end):
     n = 1
     while n <= end:

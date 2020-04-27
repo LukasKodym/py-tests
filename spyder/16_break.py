@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# %%
+##
 for i in '0123456789':
     i = int(i)
     print(i)
@@ -9,6 +11,7 @@ for i in '0123456789':
 print('koniec')
 
 # %%
+##
 sample = 'Python Course'
 for char in sample:
     if char == ' ':
@@ -16,6 +19,7 @@ for char in sample:
     print(char)
 
 # %%
+##
 for char in 'jan.kowalski@gmail.com':
     if char == '@':
         print('adres email zwerfikowany')
@@ -26,7 +30,8 @@ else:
 
 print('koniec')
 
-# %% walidator
+# %%
+## walidator
 psw = 'jnhvsoics!vd'
 if len(psw) >= 10:
     for i in psw:

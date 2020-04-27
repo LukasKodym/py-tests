@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+
+# %%
+##
 def add(a: int, b: int):
     """
     Zwraca sumę dwóch liczb.    
@@ -22,4 +25,5 @@ def add(a: int, b: int):
 
 
 # %%
+##
 help(add)

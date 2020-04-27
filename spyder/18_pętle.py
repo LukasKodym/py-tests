@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# %%
+##
 raw_data = '433!14343463!245465!454546'
 result = ''
 
@@ -11,12 +13,14 @@ for char in raw_data:
 print(result)
 
 # %%
+##
 suma = 0
 for i in range(10):
     suma += i
 print(suma)
 
 # %%
+##
 saldo = 450
 print('Saldo początkowe {}'.format(saldo))
 for kwota in range(10, 60, 10):
@@ -26,6 +30,7 @@ for kwota in range(10, 60, 10):
 print('saldo po wypłaceniu {}'.format(saldo))
 
 # %%
+##
 print('\nWitaj w systemie logowania')
 print('*' * 30)
 nick = input('podaj swój nick: ')

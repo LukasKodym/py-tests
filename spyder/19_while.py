@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 
+# %%
+##
 i = 0
 while i <= 5:
     print(i)
     i += 1
 
 # %%
+##
 n = 0
 while True:
     print(n)
@@ -14,6 +17,7 @@ while True:
     n += 1
 
 # %%
+##
 while True:
     name = input('podaj swoje imie: ')
     if len(name) >= 3 and name.isalpha():
@@ -23,6 +27,7 @@ while True:
 print('Czesc {}'.format(name))
 
 # %%
+##
 n = 0
 while n < 20:
     n += 1
@@ -31,6 +36,7 @@ while n < 20:
     print(n)
 
 # %%
+##
 lista_do_przeszukania = [12, 53, 13, 63, 34]
 flaga = False
 wartosc = int(input('wprowadź szukaną wartosc: '))
@@ -47,6 +53,7 @@ else:
     print('nie znaleziono szulanej wartosci')
 
 # %%
+##
 lista_do_przeszukania = [12, 53, 13, 63, 34]
 flaga = False
 wartosc = int(input('wprowadź szukaną wartosc: '))
@@ -59,6 +66,7 @@ while idx < len(lista_do_przeszukania):
 if not flaga:
     lista_do_przeszukania.append(wartosc)
 # %%
+##
 num = [23, 12, 53, 13, 65, 1, 45]
 idx = 0
 wartosc = 13
@@ -74,7 +82,8 @@ if f:
 else:
     print('Nie znaleziono')
 
-# %% 
+# %%
+## 
 KOD_PIN = '0000'
 pin = input('podaj kod pin: ')
 
@@ -84,6 +93,7 @@ while pin != KOD_PIN:
 print('Zalogowany')
 
 # %%
+##
 KOD_PIN = '0000'
 pin = ''
 counter = 0
