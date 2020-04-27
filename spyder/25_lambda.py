@@ -18,7 +18,7 @@ funkcja_1 = parabola
 print(funkcja_1(5))
 
 # %%
-f = lambda x: x**2 + 3
+f = lambda x: x ** 2 + 3
 
 f(5)
 
@@ -46,6 +46,7 @@ list(map(lambda word: word.upper(), lista))
 def make_upper(word):
     return word.upper()
 
+
 # %%
 list(map(make_upper, lista))
 
@@ -58,11 +59,13 @@ list(map(lambda word: word.title(), lista))
 # %%
 list(map(lambda word: (word, len(word)), lista))
 
+
 # %%
 def apply_function(x, fn):
     return fn(x)
 
-apply_function(5, lambda x: x**2)
+
+apply_function(5, lambda x: x ** 2)
 apply_function([12, 42], lambda x: sum(x))
 
 # %%
