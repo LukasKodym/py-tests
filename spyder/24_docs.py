@@ -15,7 +15,7 @@ def add(a: int, b: int):
     -------
     TYPE
     SUM : TYPE
-        INTIGER.
+        INTEGER.
 
     """
     return a + b
