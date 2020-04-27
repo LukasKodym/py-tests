@@ -14,7 +14,8 @@ def fib(num: int):
     return a
 
 
-n = int(input('Który wyraz ciągu Fibonacciego policzyć? '))
+n = int(input('Który wyraz ciągu Fibonacciego policzyć?'
+              '\nPodaj numer wyrazu: '))
 
 val = fib(n)
 
