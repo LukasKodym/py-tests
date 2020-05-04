@@ -57,6 +57,8 @@ def funkcja_2(**kwargs):
 
 funkcja_2(**{'a': 1, 'b': 2})
 
+# funkcja_2(a=1, b=2)
+
 
 # %%
 ##
