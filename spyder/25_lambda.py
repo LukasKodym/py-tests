@@ -96,6 +96,9 @@ lista_2 = [('jeden', 'one'), ('dwa', 'two'), ('trzy', 'three')]
 
 sorted(lista_2)
 
+# for item in lista_2:
+#    print(item[1])
+
 sorted(lista_2, key=lambda x: x[1])
 
 # %%
