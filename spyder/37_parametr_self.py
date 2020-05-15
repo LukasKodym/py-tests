@@ -3,14 +3,14 @@
 ##
 
 class Drzewo:
-    
+
     def wyswietl_info_o_drzewie(self):
-#        pass
+        # pass
         self.nazwa = 'Sosna'
         self.wiek = 30
         print(f'Drzewo {self.nazwa} ma {self.wiek}.')
- 
-   
+
+
 drzewo = Drzewo()
 
 # %%

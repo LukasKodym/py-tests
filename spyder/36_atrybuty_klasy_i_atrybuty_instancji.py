@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
 class Drzewo:
-    
     nazwa = 'Sosna'
     wiek = 40
     wysokosc = 25
-    
+
+
 drzewo_1 = Drzewo()
 drzewo_2 = Drzewo()
 
