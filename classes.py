@@ -47,7 +47,7 @@ class Point:
         self.x = x
         self.y = y
 
-    def move_to_new_coords(self, x=0, y=0):
+    def move_to_new_cords(self, x=0, y=0):
         self.x = x
         self.y = y
 
@@ -58,7 +58,7 @@ print(p1.x, p1.y)
 # p1.x = 9
 # p1.y = 12
 # print(p1.x, p1.y)
-p1.move_to_new_coords(9, 12)
+p1.move_to_new_cords(9, 12)
 print(p1.x, p1.y)
 
 
@@ -72,7 +72,7 @@ class Point:
         self.y = y
         Point.points_counter += 1
 
-    def move_to_new_coords(self, x=0, y=0):
+    def move_to_new_cords(self, x=0, y=0):
         self.x = x
         self.y = y
 
@@ -99,7 +99,7 @@ class Button(Widget):
         return 'Klik!'
 
 
-b = Button('my button', 'ractangle', 'large')
+b = Button('my button', 'rectangle', 'large')
 print(b.label, b.shape, b.size)
 print(b.handle_click())
 
