@@ -14,7 +14,7 @@ class Magazyn:
             print(produkt)
 
     def wyswietl_dostepne_produkty(self):
-        if self.lista_produktow == []:
+        if not self.lista_produktow:
             print('\nMagazyn jest pusty.\n\n***********************')
         else:
             print('Dostepne produkty:\n')
