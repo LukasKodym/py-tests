@@ -14,8 +14,11 @@ class Magazyn:
             print(produkt)
 
     def wyswietl_dostepne_produkty(self):
-        print('Dostepne produkty:\n')
-        self.wydruk_listy()
+        if self.lista_produktow == []:
+            print('\nMagazyn jest pusty.\n\n***********************')
+        else:
+            print('Dostepne produkty:\n')
+            self.wydruk_listy()
 
     def dodaj_produkt(self):
         self.nazwa_produktu = input('Podaj nazwę produktu: >>> ')
@@ -29,7 +32,7 @@ class Magazyn:
                                     'usunąć: >>> ')
         if self.nazwa_produktu in self.lista_produktow:
             self.lista_produktow.remove(self.nazwa_produktu)
-            print('\nUsunięto produkt z magazynu.')
+            print('\nUsunięto produkt z magazynu.\n')
             self.wydruk_listy()
         else:
             print('\nPodanego produktu nie ma na magazynie.')
@@ -37,7 +40,7 @@ class Magazyn:
 
 # %%
 ##
-magazyn = Magazyn(['mleko', 'woda', 'jajka'])
+magazyn = Magazyn([])
 
 while True:
     print('\nWprowadź 1 aby wyswietlić stan magazynu.')
