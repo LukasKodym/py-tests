@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+
 def add(x, y):
     """
     Zwraca sumę dwóch liczb
@@ -22,8 +23,9 @@ def add(x, y):
     10
     """
     return x + y
-    
+
+
 if __name__ == '__main__':
     import doctest
+
     doctest.testmod()
-    

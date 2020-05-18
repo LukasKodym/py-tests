@@ -19,31 +19,31 @@ Opis metod:
 
 import unittest
 
+
 class SimpleTest(unittest.TestCase):
-    
     x = 6
     y = 8
-    
+
     @unittest.skip('pomiń')
     def test_add(self):
         wynik = self.x + self.y
         self.assertEqual(wynik, 8)
-    
+
     @unittest.skipIf(x < y, 'pomiń')
     def test_sub(self):
         wynik = self.x - self.y
         self.assertEqual(wynik, 4)
-    
+
     @unittest.skipUnless(y == 0, 'pomiń')
     def test_div(self):
         wynik = self.x / self.y
         self.assertEqual(wynik, 3.0)
-     
+
     @unittest.expectedFailure
     def test_mul(self):
         wynik = self.x * self.y
         self.assertEqual(wynik, 12)
-        
+
+
 if __name__ == '__main__':
     unittest.main()
-        
