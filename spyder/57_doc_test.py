@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+
+def add(x, y):
+    """
+    Zwraca sumę dwóch liczb
+
+    Parameters
+    ----------
+    x : TYPE
+        DESCRIPTION.
+    y : TYPE
+        DESCRIPTION.
+
+    Returns
+    -------
+    None.
+    
+    >>> add(3, 4)
+    7
+    
+    >>> add(2, 8)
+    10
+    """
+    return x + y
+    
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+    
